@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+ body{
+    font-family: "Sedan SC", serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+ .outer-box{
+    width: 100%; /* Take up full width of the viewport */
+    height: 100vh; /* Take up full height of the viewport */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: conic-gradient(rgb(60, 184, 222), yellow, green, rgb(78, 170, 232), rgb(73, 178, 235));
+    /* background: linear-gradient(to top right,#3ed8ff,#a8f5ff); */
+}
+.inner-box{
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px #ff0e1e;
+    background-image: conic-gradient(rgb(161, 210, 225), rgb(131, 236, 102), green, rgb(78, 170, 232), rgb(73, 178, 235));
+    
+}
+.signup-header h1{
+    font-size:2.5rem;
+    color:#212121;
+}
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+.signup-body{
+    margin:20px 0;
+}
+.signup-body p{
+    margin: 30px 0;
+}
+.signup-body p label{
+    display: block;
+}
+.signup-body p input{
+    width:100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+.signup-body p input[type="submit"]{
+    background-color: #3498db;
+    border: none;
+    color:white;
+    cursor:pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: #044978;
+}
+.signup-footer p{
+    text-align: center;
+    color:#555;
+}
+.signup-footer p a{
+    color:#d6397b;
+}
